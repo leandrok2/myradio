@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a4802.myradio.MainActivity">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="ELETRONIC"
+        android:id="@+id/button"
+        android:layout_marginTop="32dp"
+        android:onClick="tela2"
+        android:background="#0a0808"
+        android:textColor="#ff0d2d"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:singleLine="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOSPEL"
+        android:id="@+id/button2"
+        android:onClick="tela3"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="66dp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:background="#090808"
+        android:textColor="#f90b0b" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGGAE"
+        android:id="@+id/button3"
+        android:onClick="tela4"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:background="#060606"
+        android:textColor="#f80d0d" />
+
+
+</RelativeLayout>
